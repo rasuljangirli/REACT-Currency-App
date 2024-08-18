@@ -35,7 +35,7 @@ function Currency() {
             Exchange Currency
           </h3>
         </div>
-
+        
         <div style={{ marginTop: "20px" }}>
           <input
             id="amount"

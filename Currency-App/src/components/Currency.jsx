@@ -12,7 +12,7 @@ function Currency() {
   let BASE_URL = "https://api.freecurrencyapi.com/v1/latest";
   let API_KEY = "fca_live_5HNbg9ozWvn5xVD2MYFrjVh8JvMwojKG8rUkHxUZ";
   ``;
-
+  
   const exchange = async () => {
     const response = await axios.get(
       `${BASE_URL}?apikey=${API_KEY}&base_currency=${fromCurrency}`

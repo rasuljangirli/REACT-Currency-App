@@ -20,7 +20,7 @@ function Currency() {
     const result = (response.data.data[toCurrency] * amount).toFixed(3);
     setResult(result);
   };
-
+  
   return (
     <div>
       <div className="currency-main">
